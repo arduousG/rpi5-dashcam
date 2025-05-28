@@ -1,0 +1,38 @@
+#OS junk
+.DS_Store
+Thumbs.db
+
+# Editor backups
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+#py
+__pycache__/
+*.pyc
+
+#media outputs
+*.h264
+*.mp4
+*.mkv
+*.jpg
+*.png
+*.bmp
+
+#log + debug files
+logs/
+*.log
+
+#cmpiled output
+*.o
+*.out
+*.a
+*.so
+
+#Pi stuff
+*.elf
+*.bin
+
+.vscode/
