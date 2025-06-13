@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# 1. CONFIGURE PATHS
+#PATHS - -config
 WSL_SOURCE="$HOME/DashcamMedia"
 
 #hardcoded user && dirs 
@@ -10,7 +10,7 @@ WIN_TARGET="/mnt/c/Users/$WIN_USER/Videos/Dash"
 # file copy 
 echo "Exporting dashcam videos to Windows folder..."
 
-# Create target if it doesn't exist
+# create target dir if it doesn't exist
 mkdir -p "$WIN_TARGET"
 
 #copy all from WSL dir /DashcamMedia into Windows for wasy viewing
